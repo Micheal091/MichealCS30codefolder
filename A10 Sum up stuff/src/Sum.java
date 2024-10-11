@@ -23,6 +23,6 @@ public void Sumup() {
  c = newnum;
 }
 public void answer() {
-    System.out.println("The sum of your numbers is............" + c );
+    System.out.println("The sum of your numbers is............ " + c );
    }
 }
