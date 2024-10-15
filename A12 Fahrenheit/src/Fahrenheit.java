@@ -4,10 +4,8 @@ public void setcel(double set1){
     a = set1;
 }
 public void convert(){
-    b = (a - 32)% (5/9);
-}
-
-public void call(){
-    System.out.println("Your degree in Fahrenheit is " + b);
+   b = (a - 32)*(5/9.0);
+   double c = Math.round(b);
+    System.out.println("Your degree in Celsius is " + c);
 }
 }
