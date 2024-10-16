@@ -33,10 +33,7 @@ public void pick(){
         else{
             
                 System.out.println("Please write an appropriate digit!!!");
-                System.out.println("Enter /'1/' to calculate the perimeter of a triangle");
-    System.out.println("Enter /'2/' to calculate the surface area of a cube");
-    System.out.println("Enter /'3/' to calculate the area a of a circle");
-     a = keys.nextInt();
+                pick();
              
         }
 
