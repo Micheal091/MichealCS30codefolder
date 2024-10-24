@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class triangle {
-    private double a,b, c, sum, s, answer;
-    public double p;
+    private double a,b, c, sum, answer;
     Scanner keys = new Scanner(System.in);
     public void state()
     {
@@ -10,7 +9,7 @@ public class triangle {
         System.out.println("how long is the second side of the triangle?");
         b = keys.nextDouble();
         System.out.println("how long is the third side of the triangle?");
-        b = keys.nextDouble();
+        c = keys.nextDouble();
     }
 
     public void perimeter()
@@ -19,17 +18,12 @@ public class triangle {
 
     }
 
-    public void s()
-    {
-        s = sum / 2;
-    }
-
     public void area()
     {
-        answer = Math.sqrt((s) *(s-a)* (s-b) *(s-c));
-        answer= p;
+        double s = sum / 2;
+        answer = s*(s-a)*(s-b)*(s-c);
+        double p = Math.round(Math.sqrt(answer));
         System.out.println("The area of the triangle is " + p);
     }
-
 
 }

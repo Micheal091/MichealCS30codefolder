@@ -13,7 +13,6 @@ public class trianglerunner {
         triangle call = new triangle();
         call.state();
         call.perimeter();
-        call.s();
         call.area();
 
 
