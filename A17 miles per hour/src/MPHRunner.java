@@ -25,7 +25,7 @@ public class MPHRunner
 		int mins = keyboard.nextInt();
 		keyboard.close();
 
-		MilesPerHour test = new MilesPerHour(dist, hrs, mins);
+		MilesPerHour test = new MilesPerHour();
 		test.setNums(dist, hrs, mins);
 		test.calcMPH();
 		test.print();

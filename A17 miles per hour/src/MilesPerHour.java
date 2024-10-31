@@ -17,12 +17,6 @@ public class MilesPerHour
 		mph=0.0;
 	}
 
-	public MilesPerHour(int dist, int hrs, int mins)
-	{
-
-
-	}
-
 	public void setNums(int dist, int hrs, int mins)
 	{
 		distance = dist;
@@ -33,7 +27,7 @@ public class MilesPerHour
 
 	public void calcMPH()
 	{
-		mph = (distance *60)/((hours/60)+(minutes));
+		mph = (distance *60)/(((double)hours*60)+(minutes));
 		mph = Math.round(mph);
 	}
 
