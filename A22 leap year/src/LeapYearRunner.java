@@ -18,6 +18,8 @@ public class LeapYearRunner
 			call.state(year);
 			call.isLeapYear(year);
 			keyboard.close();
-					
+			boolean a=true;
+			boolean b=false;
+			System.out.println( a &&( a || b ));	
 	}
 }
